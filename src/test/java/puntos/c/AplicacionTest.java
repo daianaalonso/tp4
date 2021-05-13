@@ -13,7 +13,7 @@ public class AplicacionTest {
 
     @Test
     public void calcularCostoDePaquete() {
-        Aplicacion aplicacion= new Aplicacion();
+        Aplicacion aplicacion = new Aplicacion();
 
         paquete1.aniadirServicios(hogar);
         paquete1.aniadirServicios(automovil);
