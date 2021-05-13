@@ -8,7 +8,7 @@ public class EmpresaTest {
     private final Empleado gerente = new EmpleadoACargo("Lorena Ramos", 15000);
     private final Empleado mandoMedio = new EmpleadoACargo("Andres Blanco", 7000);
     private final Empleado liderProyecto = new EmpleadoACargo("Xiomara Pallalaf", 10000);
-    private final Empleado empleadoRegular = new EmpleadoRegular("Andres Blanco", 3000);
+    private final Empleado empleadoRegular = new EmpleadoRegular("Valentin Pallalaf", 3000);
 
     @Test
     public void calcularMontoSalarialDeEmpresa() {
