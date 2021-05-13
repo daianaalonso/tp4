@@ -7,6 +7,7 @@ public class Tarea implements Item {
         this.horas = horas;
     }
 
+    @Override
     public int obtenerHoras() {
         return this.horas;
     }
